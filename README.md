@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/network_diagram.png)
+![Network Diagram](Images/network_diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the `roles` file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -72,7 +72,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![docker ps Output](Images/docker_ps_output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -95,4 +95,4 @@ SSH into the control node and follow the steps below:
 - Update the /etc/ansible/hosts file to include the IP addresses of the web servers under the [webservers] section as well as the IP address of the ELK server under the [elk] section.
 - Run the playbook, and navigate to http://[your.ELK.VM.IP]:5601/app/kibana to check that the installation worked as expected.
 
-(Images/kibana_success.png)
+![Kibana Success](Images/kibana_success.png)
